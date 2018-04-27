@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/daidokoro/qaz/utils"
+	"github.com/itc3-devops/qaz/utils"
 
-	stks "github.com/daidokoro/qaz/stacks"
+	stks "github.com/itc3-devops/qaz/stacks"
 
 	"github.com/spf13/cobra"
 )

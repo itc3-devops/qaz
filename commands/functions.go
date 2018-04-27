@@ -6,9 +6,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/daidokoro/qaz/bucket"
-	stks "github.com/daidokoro/qaz/stacks"
-	"github.com/daidokoro/qaz/utils"
+	"github.com/itc3-devops/qaz/bucket"
+	stks "github.com/itc3-devops/qaz/stacks"
+	"github.com/itc3-devops/qaz/utils"
 
 	"encoding/base64"
 	"encoding/json"

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/daidokoro/qaz/bucket"
+	"github.com/itc3-devops/qaz/bucket"
 )
 
 // cleanup functions in create_failed or delete_failed states

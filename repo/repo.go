@@ -10,7 +10,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/daidokoro/qaz/logger"
+	"github.com/itc3-devops/qaz/logger"
 
 	"golang.org/x/crypto/ssh/terminal"
 

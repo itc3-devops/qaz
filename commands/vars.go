@@ -1,10 +1,10 @@
 package commands
 
 import (
-	stks "github.com/daidokoro/qaz/stacks"
+	stks "github.com/itc3-devops/qaz/stacks"
 
-	"github.com/daidokoro/qaz/logger"
-	"github.com/daidokoro/qaz/repo"
+	"github.com/itc3-devops/qaz/logger"
+	"github.com/itc3-devops/qaz/repo"
 )
 
 var (

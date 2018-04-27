@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/daidokoro/qaz/commands"
+	"github.com/itc3-devops/qaz/commands"
 )
 
 func main() {

@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/daidokoro/qaz/bucket"
-	"github.com/daidokoro/qaz/utils"
+	"github.com/itc3-devops/qaz/bucket"
+	"github.com/itc3-devops/qaz/utils"
 )
 
 // Source - interface for template/config sources

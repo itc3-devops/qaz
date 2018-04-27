@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/daidokoro/qaz/logger"
+	"github.com/itc3-devops/qaz/logger"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"

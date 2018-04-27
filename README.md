@@ -3,9 +3,9 @@
 </p>
 
 [![Join the chat at https://gitter.im/qaz-go/Lobby](https://badges.gitter.im/qaz-go/Lobby.svg)](https://gitter.im/qaz-go/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![GitHub stars](https://img.shields.io/github/stars/daidokoro/qaz.svg)](https://github.com/daidokoro/qaz/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/daidokoro/qaz.svg)](https://github.com/itc3-devops/qaz/stargazers)
 [![Build Status](https://travis-ci.org/daidokoro/qaz.svg)](https://travis-ci.org/daidokoro/qaz)
-![Go Report Card](https://goreportcard.com/badge/github.com/daidokoro/qaz)
+![Go Report Card](https://goreportcard.com/badge/github.com/itc3-devops/qaz)
 
 
 __Qaz__ is a _cloud native_ AWS Cloudformation Template Management CLI tool that focuses on simplifying the process of deploying infrastructure on AWS via Cloudformation by utilising the Go Templates Library and custom functions to generate diverse and configurable templates.
@@ -57,7 +57,7 @@ Qaz emphasizes minimal abstraction from the underlying AWS Cloudformation Platfo
 
 If you have Golang installed:
 
-`go get github.com/daidokoro/qaz`
+`go get github.com/itc3-devops/qaz`
 
 On Mac or Linux:
 
@@ -80,18 +80,18 @@ qaz requires:
 
 [![asciicast](https://asciinema.org/a/bbuegywnih0x1r35epfdotrv5.png)](https://asciinema.org/a/bbuegywnih0x1r35epfdotrv5?speed=2)
 
-## Checkout the [Wiki](https://github.com/daidokoro/qaz/wiki) for more on how Qaz works!
+## Checkout the [Wiki](https://github.com/itc3-devops/qaz/wiki) for more on how Qaz works!
 
 __Content___
 
-- [Home](https://github.com/daidokoro/qaz/wiki)
-- [Installation](https://github.com/daidokoro/qaz/wiki/Install)
-- [Configuration](https://github.com/daidokoro/qaz/wiki/Config)
-  - [Roles vs Profiles](https://github.com/daidokoro/qaz/wiki/Roles-vs-Profiles)
-- [Custom Template Functions](https://github.com/daidokoro/qaz/wiki/Custom-Function)
-- [Templating with Qaz](https://github.com/daidokoro/qaz/wiki/Templates)
-- [Troposphere via Lambda](https://github.com/daidokoro/qaz/wiki/Troposphere)
-- [Deploy using Git](https://github.com/daidokoro/qaz/wiki/Deploy-Using-Git)
+- [Home](https://github.com/itc3-devops/qaz/wiki)
+- [Installation](https://github.com/itc3-devops/qaz/wiki/Install)
+- [Configuration](https://github.com/itc3-devops/qaz/wiki/Config)
+  - [Roles vs Profiles](https://github.com/itc3-devops/qaz/wiki/Roles-vs-Profiles)
+- [Custom Template Functions](https://github.com/itc3-devops/qaz/wiki/Custom-Function)
+- [Templating with Qaz](https://github.com/itc3-devops/qaz/wiki/Templates)
+- [Troposphere via Lambda](https://github.com/itc3-devops/qaz/wiki/Troposphere)
+- [Deploy using Git](https://github.com/itc3-devops/qaz/wiki/Deploy-Using-Git)
 
 
 

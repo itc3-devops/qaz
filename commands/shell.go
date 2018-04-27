@@ -9,11 +9,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/daidokoro/qaz/utils"
+	"github.com/itc3-devops/qaz/utils"
 
 	yaml "gopkg.in/yaml.v2"
 
-	stks "github.com/daidokoro/qaz/stacks"
+	stks "github.com/itc3-devops/qaz/stacks"
 
 	"github.com/daidokoro/ishell"
 	"github.com/spf13/cobra"

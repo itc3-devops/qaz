@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/daidokoro/hcl"
-	"github.com/daidokoro/qaz/logger"
+	"github.com/itc3-devops/qaz/logger"
 )
 
 // Log defines logger

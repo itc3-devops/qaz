@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/daidokoro/qaz/utils"
+	"github.com/itc3-devops/qaz/utils"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"

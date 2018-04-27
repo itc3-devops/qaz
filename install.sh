@@ -5,7 +5,7 @@ install () {
 
   UNAME=$(uname)
   if [ "$UNAME" != "Linux" -a "$UNAME" != "Darwin" ] ; then
-      echo "Sorry, OS not supported: ${UNAME}. Download binary from https://github.com/daidokoro/qaz/releases"
+      echo "Sorry, OS not supported: ${UNAME}. Download binary from https://github.com/itc3-devops/qaz/releases"
       exit 1
   fi
 
@@ -15,7 +15,7 @@ install () {
       if [ "${OSX_ARCH}" = "x86_64" ] ; then
         PLATFORM="darwin_amd64"
       else
-        echo "Sorry, architecture not supported: ${OSX_ARCH}. Download binary from https://github.com/daidokoro/qaz/releases"
+        echo "Sorry, architecture not supported: ${OSX_ARCH}. Download binary from https://github.com/itc3-devops/qaz/releases"
         exit 1
       fi
 
@@ -28,22 +28,22 @@ install () {
       elif [ "${LINUX_ARCH}" = "x86_64" ] ; then
         PLATFORM="linux_amd64"
       else
-        echo "Sorry, architecture not supported: ${LINUX_ARCH}. Download binary from https://github.com/daidokoro/qaz/releases"
+        echo "Sorry, architecture not supported: ${LINUX_ARCH}. Download binary from https://github.com/itc3-devops/qaz/releases"
         exit 1
       fi
     ;;
   esac
 
   LATEST=$(curl -s https://api.github.com/repos/daidokoro/qaz/tags | grep -Eo '"name":.*[^\\]",'  | head -n 1 | sed 's/[," ]//g' | cut -d ':' -f 2)
-  URL="https://github.com/daidokoro/qaz/releases/download/$LATEST/qaz_$PLATFORM"
+  URL="https://github.com/itc3-devops/qaz/releases/download/$LATEST/qaz_$PLATFORM"
   DEST=${DEST:-/usr/local/bin/qaz}
 
   if [ -z $LATEST ] ; then
-    echo "Error requesting. Download binary from https://github.com/daidokoro/qaz/releases"
+    echo "Error requesting. Download binary from https://github.com/itc3-devops/qaz/releases"
     exit 1
   else
-    echo "Downloading Qaz binary from https://github.com/daidokoro/qaz/releases/download/$LATEST/qaz_$PLATFORM to $DEST"
-    if curl -sL https://github.com/daidokoro/qaz/releases/download/$LATEST/qaz_$PLATFORM -o $DEST; then
+    echo "Downloading Qaz binary from https://github.com/itc3-devops/qaz/releases/download/$LATEST/qaz_$PLATFORM to $DEST"
+    if curl -sL https://github.com/itc3-devops/qaz/releases/download/$LATEST/qaz_$PLATFORM -o $DEST; then
       chmod +x $DEST
       echo "Qaz installation was successful"
     else

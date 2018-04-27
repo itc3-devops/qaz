@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/daidokoro/qaz/logger"
-	"github.com/daidokoro/qaz/repo"
+	"github.com/itc3-devops/qaz/logger"
+	"github.com/itc3-devops/qaz/repo"
 
 	"text/template"
 

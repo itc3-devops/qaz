@@ -10,11 +10,11 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	stks "github.com/daidokoro/qaz/stacks"
+	stks "github.com/itc3-devops/qaz/stacks"
 
-	"github.com/daidokoro/qaz/bucket"
-	"github.com/daidokoro/qaz/repo"
-	"github.com/daidokoro/qaz/utils"
+	"github.com/itc3-devops/qaz/bucket"
+	"github.com/itc3-devops/qaz/repo"
+	"github.com/itc3-devops/qaz/utils"
 
 	"github.com/CrowdSurge/banner"
 	"github.com/spf13/cobra"

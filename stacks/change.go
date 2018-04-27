@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/daidokoro/qaz/utils"
+	"github.com/itc3-devops/qaz/utils"
 
 	yaml "gopkg.in/yaml.v2"
 

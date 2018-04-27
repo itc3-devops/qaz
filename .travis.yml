@@ -14,6 +14,6 @@ before_install:
 - eval export AWS_REGION=\$master_aws_region
 
 install:
-  - go get -t -v github.com/daidokoro/qaz
+  - go get -t -v github.com/itc3-devops/qaz
 
 script: go test -v ./tests
